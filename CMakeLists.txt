@@ -45,7 +45,7 @@ endif()
 # Default to optimised builds instead of debug ones. Our code has no bugs ;)
 # (CMake makes it fairly easy to toggle this back to Debug if needed)
 if(NOT CMAKE_BUILD_TYPE)
-  set(CMAKE_BUILD_TYPE Release)
+	set(CMAKE_BUILD_TYPE Debug)
 endif()
 
 message(STATUS "CMAKE_BUILD_TYPE = ${CMAKE_BUILD_TYPE}")
